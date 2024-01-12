@@ -20,6 +20,7 @@ jobs:
        include:
          - os: windows-latest
          - os: macos-latest
+         - os: macos-12
 
     steps:
     - name: Checkout
