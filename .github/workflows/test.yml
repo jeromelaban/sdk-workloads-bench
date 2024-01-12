@@ -35,7 +35,7 @@ jobs:
     - name: Build - CI
       shell: pwsh
       run: |
-        dotnet workload install --from-rollback-file 8.0.100.json
+        dotnet workload install --from-rollback-file 8.0.100.json android ios maccatalyst maui tvos
 
     - name: Build - CI
       shell: pwsh
@@ -50,7 +50,7 @@ jobs:
     - name: Build - CI
       shell: pwsh
       run: |
-        dotnet workload install --from-rollback-file 8.0.101.json
+        dotnet workload install --from-rollback-file 8.0.101.json android ios maccatalyst maui tvos
 
     - name: Build - CI
       shell: pwsh
